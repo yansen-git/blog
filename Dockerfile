@@ -3,9 +3,11 @@ FROM nginx:1.15
 ENV yui /var/lib/jenkins/workspace/blog/default/yui
 ENV blog /var/lib/jenkins/workspace/blog/default/blog
 # 读取 url 中的目录，并切换工作空间到对应目录
-WORKDIR ${yui} 
+WORKDIR ${yui}
+RUN pwd
 COPY docs/.vuepress/dist /etc/nginx/html/yui
 # 读取 url 中的目录，并切换工作空间到对应目录
-WORKDIR ${blog} 
+WORKDIR ${blog}
+RUN pwd
 COPY src/.vuepress/dist /etc/nginx/html
 COPY conf /etc/nginx/conf.d
