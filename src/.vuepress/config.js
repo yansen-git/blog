@@ -18,7 +18,7 @@ module.exports = {
 	theme: 'melodydl',
 	// 主题配置
 	themeConfig: {
-		title: 'Top Blog-test',
+		title: 'Top Blog',
 		// 个人信息（没有或不想设置的，删掉对应字段即可）
 		personalInfo: {
 			// 名称
