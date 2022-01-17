@@ -1,4 +1,6 @@
 FROM nginx:1.15
-COPY blog/src/.vuepress/dist /etc/nginx/html
+cd ..
 COPY yui/docs/.vuepress/dist /etc/nginx/html/yui
+cd blog
+COPY src/.vuepress/dist /etc/nginx/html
 COPY conf /etc/nginx/conf.d
