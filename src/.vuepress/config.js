@@ -1,6 +1,6 @@
 module.exports = {
 	// 网站 Title
-	title: 'Top 的博客 ｜ Top Blog',
+	title: 'yansen 的博客 ｜ yansen Blog',
 	// 网站描述
 	description: '个人博客',
 	// 网站 favicon 图标设置等
@@ -18,13 +18,13 @@ module.exports = {
 	theme: 'melodydl',
 	// 主题配置
 	themeConfig: {
-		title: 'Top Blog',
+		title: 'yansen Blog',
 		// 个人信息（没有或不想设置的，删掉对应字段即可）
 		personalInfo: {
 			// 名称
 			name: 'yansen',
 			// 头像 public文件夹下
-			avatar: '/avatar-top.jpeg',
+			avatar: '/avatar.jpeg',
 			// 头部背景图
 			headerBackgroundImg: '/avatar-bg.jpeg',
 			// 个人简介 (支持 HTML)
@@ -35,8 +35,7 @@ module.exports = {
 			location: 'Shanxi, China'
 		},
 		// 顶部导航栏内容
-		nav: [
-			{
+		nav: [{
 				text: 'HOME',
 				link: '/'
 			},
@@ -52,7 +51,7 @@ module.exports = {
 		// 首页头部标题背景图设置，图片直接放在 public 文件夹下
 		header: {
 			home: {
-				title: 'Top Blog',
+				title: 'yansen Blog',
 				subtitle: '好好生活，慢慢相遇',
 				headerImage: '/home-bg.jpeg'
 			},
@@ -67,42 +66,43 @@ module.exports = {
 		},
 		// 社交平台帐号信息 
 		sns: {
-			csdn: {
-				account: 'csdn',
-				link: 'https://blog.csdn.net/weixin_44002432',
-			},
-			weibo: {
-				account: 'weibo',
-				link: 'https://weibo.com/u/5656925978',
-			},
-			juejin: {
-				account: 'juejin',
-				link: 'https://juejin.im/user/3843548382238791'
-			},
-			zhihu: {
-				account: 'zhihu',
-				link: 'https://www.zhihu.com/people/sheng-tang-de-xing-kong'
-			},
-			github: {
-				account: 'github',
-				link: 'https://github.com/youdeliang'
-			}
+			// csdn: {
+			// 	account: 'csdn',
+			// 	link: 'https://blog.csdn.net/weixin_44002432',
+			// },
+			// weibo: {
+			// 	account: 'weibo',
+			// 	link: 'https://weibo.com/u/5656925978',
+			// },
+			// juejin: {
+			// 	account: 'juejin',
+			// 	link: 'https://juejin.im/user/3843548382238791'
+			// },
+			// zhihu: {
+			// 	account: 'zhihu',
+			// 	link: 'https://www.zhihu.com/people/sheng-tang-de-xing-kong'
+			// },
+			// github: {
+			// 	account: 'github',
+			// 	link: 'https://github.com/yansen-git'
+			// }
 		},
 		// 底部 footer 的相关设置 
 		footer: {
 			// gitbutton  配置
-			gitbtn: {
-				// 仓库地址
-				repository: "https://ghbtns.com/github-btn.html?user=youdeliang&repo=vuepress-theme-top&type=star&count=true",
-				frameborder: 0,
-				scrolling: 0,
-				width: "80px",
-				height: "20px"
-			},
+			// gitbtn: {
+			// 	// 仓库地址
+			// 	repository: "https://github.com/yansen-git",
+			// 	frameborder: 0,
+			// 	scrolling: 0,
+			// 	width: "80px",
+			// 	height: "20px"
+			// },
 			// 添加自定义 footer
-			custom: `Copyright © Top Blog 2020 <br /> 
-			Theme By <a href="https://www.vuepress.cn/" target="_blank">VuePress</a>
-			| <a href="https://www.github.com/youdeliang/" target="_blank">youdeliang</a>`
+			// | <a href="https://beian.miit.gov.cn/" target="_blank">京公网安备11000002000001号</a>
+			custom: `
+				© 2022 yansen Blog<br />
+				<a href="https://beian.miit.gov.cn/" target="_blank">陕ICP备2021015037号-1</a>`
 		},
 		// 分页配置
 		pagination: {

@@ -659,4 +659,3 @@ Promise.reject = function(value) {
 ## 参考文献
 - [x] [30分钟，让你彻底明白Promise原理](https://mengera88.github.io/2017/05/18/Promise%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/)
 - [x] [浏览器工作原理与实践](https://time.geekbang.org/column/article/136895)
-- [x] [前端开发核心知识进阶](https://gitbook.cn/gitchat/column/5c91c813968b1d64b1e08fde/topic/5cbbe946bbbba80861a35bfc)
