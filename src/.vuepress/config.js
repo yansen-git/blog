@@ -1,6 +1,6 @@
 module.exports = {
 	// 网站 Title
-	title: 'yansen 的博客 ｜ yansen Blog',
+	title: '',
 	// 网站描述
 	description: '个人博客',
 	// 网站 favicon 图标设置等
@@ -102,7 +102,14 @@ module.exports = {
 			// | <a href="https://beian.miit.gov.cn/" target="_blank">京公网安备11000002000001号</a>
 			custom: `
 				© 2022 yansen Blog<br />
-				<a href="https://beian.miit.gov.cn/" target="_blank">陕ICP备2021015037号-1</a>`
+				<a target="_blank" href="https://beian.miit.gov.cn/" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+					<p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">陕ICP备2021015037号</p>
+				</a>
+				<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=61011102000321" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+					<p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">陕公网安备 61011102000321号</p>
+				</a>
+			</div>
+		`
 		},
 		// 分页配置
 		pagination: {
